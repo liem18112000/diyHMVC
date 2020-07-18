@@ -33,10 +33,10 @@ define('ROUTES', [
 ]);
 
 define('PUBLICS', [
-    'img'   => 'http://localhost/hmvc/public/img',
-    'css'   => 'http://localhost/hmvc/public/css',
-    'js'    => 'http://localhost/hmvc/public/js',
-    'url'   => 'http://localhost/hmvc',
+    'img'   => 'http://localhost/diyHmvc/public/img',
+    'css'   => 'http://localhost/diyHmvc/public/css',
+    'js'    => 'http://localhost/diyHmvc/public/js',
+    'url'   => 'http://localhost/diyHmvc',
 ]);
 
 // define(
