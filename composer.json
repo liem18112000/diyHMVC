@@ -1,6 +1,7 @@
 {
     "name" : "hmvc/hmvc-package",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Liem Doan",
