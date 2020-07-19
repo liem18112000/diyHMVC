@@ -1,14 +1,15 @@
 <?php
-    use Framework\Translator\SimpleTranslator as Translator;
+
+use Framework\Translator\SimpleTranslator as Translator;
 ?>
 
 <div class='auth'>
 
     <div class='container'>
 
-        <div class='row'>
+        <div class='row justify-content-lg-center justify-content-md-center'>
 
-            <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 auth-login-form'>
+            <div class='pt-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 auth-login-form'>
 
                 <h1 class='text-center'><?= $this->data['title']; ?></h1>
 

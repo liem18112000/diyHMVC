@@ -27,7 +27,6 @@
 <body>
 
     <?php
-
     require_once(Application['paths']['app'] . '/view/' . $this->view . '.php');
     ?>
 

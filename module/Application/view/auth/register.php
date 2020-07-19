@@ -1,4 +1,5 @@
 <?php
+
 use Framework\Translator\SimpleTranslator as Translator;
 ?>
 
@@ -6,9 +7,9 @@ use Framework\Translator\SimpleTranslator as Translator;
 
     <div class='container'>
 
-        <div class='row'>
+        <div class='row justify-content-lg-center justify-content-md-center'>
 
-            <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 auth-register-form'>
+            <div class='pt-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 auth-register-form'>
 
                 <h1 class='text-center'><?= ucwords($this->data['title']); ?></h1>
 
@@ -20,7 +21,7 @@ use Framework\Translator\SimpleTranslator as Translator;
 
                 <br />
 
-                <a href='<?= Application['paths']['url'] . '/auth/login' ?>'><?= Translator::translate('Already have account! Login here')?></a>
+                <a href='<?= Application['paths']['url'] . '/auth/login' ?>'><?= Translator::translate('Already have account! Login here') ?></a>
 
             </div>
 

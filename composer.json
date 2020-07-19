@@ -7,7 +7,7 @@
         {
             "name": "Liem Doan",
             "email": "liem18112000@gmail.com",
-            "homepage": "http://rubberduck.epizy.com",
+            "homepage": "https://github.com/liem18112000/diyHmvc",
             "role": "Fullstack Developer"
         }
     ],
@@ -22,8 +22,7 @@
     "autoload": {
         "psr-4": {
             "Framework\\"   : "vendor/mvcframework",
-            "Application\\" : "module/Application/src/",
-            "Customer\\"    : "module/Customer/src/"
+            "Application\\" : "module/Application/src/"
         }
     }
 }

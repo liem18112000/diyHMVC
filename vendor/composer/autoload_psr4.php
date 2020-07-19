@@ -7,6 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Framework\\' => array($vendorDir . '/mvcframework'),
-    'Customer\\' => array($baseDir . '/module/Customer/src'),
     'Application\\' => array($baseDir . '/module/Application/src'),
 );

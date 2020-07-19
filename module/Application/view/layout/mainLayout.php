@@ -17,6 +17,7 @@
 
 	<!-- Style Sheets -->
 	<link rel="stylesheet" href="<?= PUBLICS['css'] . '/application/main.css' ?>">
+	<link rel="stylesheet" href="<?= PUBLICS['css'] . '/application/footer.css'?>">
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Oswald|Roboto&display=swap" rel="stylesheet">
@@ -30,6 +31,7 @@
 	use Framework\Translator\SimpleTranslator as Translator;
 	require_once(Application['paths']['app'] . '/view/component/navbar.php');
 	require_once(Application['paths']['app'] . '/view/' . $this->view . '.php');
+	// require_once(Application['paths']['app'] . '/view/component/footer.php');
 	?>
 
 	<!-- Modal -->
@@ -65,10 +67,6 @@
 
 		</div>
 	</div>
-
-
-
-
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

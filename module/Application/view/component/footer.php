@@ -4,7 +4,7 @@
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 footer-brand animated fadeInLeft">
             <h2>Logo</h2>
             <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
-            <p>© 2014 BS3 UI Kit, All rights reserved</p>
+            <p>© 2020 <?=WEB_NAME?>, All rights reserved</p>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-nav animated fadeInUp">
             <h4>Pages</h4>

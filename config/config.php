@@ -1,8 +1,7 @@
 <?php
 
 define('MODULES', [
-    'Application',
-    'Customer',
+    'Application'
 ]);
 
 define('ROUTES', [
@@ -39,29 +38,22 @@ define('PUBLICS', [
     'url'   => 'http://localhost/diyHmvc',
 ]);
 
-// define(
-//     'DB',
-//     [
-//         'Application'   => [
-//             'host'  => 'sql212.epizy.com',
-//             'user'  => 'epiz_25382080',
-//             'pass'  => 'svA30tq7mmVlB',
-//             'dbname' => 'epiz_25382080_application',
-//             'port'  => '3306',
-//         ],
-//         'Customer'      => [
-//             'host'  => 'sql212.epizy.com',
-//             'user'  => 'epiz_25382080',
-//             'pass'  => 'svA30tq7mmVlB',
-//             'dbname' => 'epiz_25382080_application',
-//             'port'  => '3306',
-//         ]
-//     ]
-// );
+define(
+    'DB',
+    [
+        'Application'   => [
+            'host'  => 'localhost',
+            'user'  => 'root',
+            'pass'  => '',
+            'dbname' => 'hmvc',
+            'port'  => '3306',
+        ],
+    ]
+);
 
-define('DB',
-[
-]);
+// define('DB',
+// [
+// ]);
 
 define('ROOTS', 
 [
@@ -111,4 +103,4 @@ define('INFORMATION', [
 
 ]);
 
-define('WEB_NAME', 'TokyoHealth');
+define('WEB_NAME', 'Application');

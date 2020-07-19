@@ -11,10 +11,6 @@ class ComposerStaticInit138361e0588f42caaf8521934b34d7ce
         array (
             'Framework\\' => 10,
         ),
-        'C' => 
-        array (
-            'Customer\\' => 9,
-        ),
         'A' => 
         array (
             'Application\\' => 12,
@@ -25,10 +21,6 @@ class ComposerStaticInit138361e0588f42caaf8521934b34d7ce
         'Framework\\' => 
         array (
             0 => __DIR__ . '/..' . '/mvcframework',
-        ),
-        'Customer\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/module/Customer/src',
         ),
         'Application\\' => 
         array (
@@ -41,10 +33,6 @@ class ComposerStaticInit138361e0588f42caaf8521934b34d7ce
         'Application\\Controller\\IndexController' => __DIR__ . '/../..' . '/module/Application/src/controller/IndexController.php',
         'Application\\Model\\Auth\\SimpleUser' => __DIR__ . '/../..' . '/module/Application/src/model/auth/SimpleUser.php',
         'Application\\Model\\Auth\\User' => __DIR__ . '/../..' . '/module/Application/src/model/auth/User.php',
-        'Customer\\Controller\\CustomerController' => __DIR__ . '/../..' . '/module/Customer/src/controller/CustomerController.php',
-        'Customer\\Controller\\VisualizeController' => __DIR__ . '/../..' . '/module/Customer/src/controller/VisualizeController.php',
-        'Customer\\Model\\Attendance' => __DIR__ . '/../..' . '/module/Customer/src/model/Attendance.php',
-        'Customer\\Model\\Customer' => __DIR__ . '/../..' . '/module/Customer/src/model/Customer.php',
         'Framework\\Core\\App\\AbstractApp' => __DIR__ . '/..' . '/mvcframework/core/app/AbstractApp.php',
         'Framework\\Core\\App\\App' => __DIR__ . '/..' . '/mvcframework/core/app/App.php',
         'Framework\\Core\\App\\AppInterface' => __DIR__ . '/..' . '/mvcframework/core/app/AppInterface.php',
@@ -59,6 +47,10 @@ class ComposerStaticInit138361e0588f42caaf8521934b34d7ce
         'Framework\\Core\\Module\\Module' => __DIR__ . '/..' . '/mvcframework/core/module/Module.php',
         'Framework\\Core\\Module\\ModuleInterface' => __DIR__ . '/..' . '/mvcframework/core/module/ModuleInterface.php',
         'Framework\\Core\\Registry\\Registry' => __DIR__ . '/..' . '/mvcframework/core/registry/Registry.php',
+        'Framework\\Core\\Route\\APIRoute' => __DIR__ . '/..' . '/mvcframework/core/route/APIRoute.php',
+        'Framework\\Core\\Route\\AbstractRoute' => __DIR__ . '/..' . '/mvcframework/core/route/AbstractRoute.php',
+        'Framework\\Core\\Route\\RouteInterface' => __DIR__ . '/..' . '/mvcframework/core/route/RouteInterface.php',
+        'Framework\\Core\\Route\\WebRoute' => __DIR__ . '/..' . '/mvcframework/core/route/WebRoute.php',
         'Framework\\Core\\View\\View' => __DIR__ . '/..' . '/mvcframework/core/view/View.php',
         'Framework\\Exception\\ExceptionHandler' => __DIR__ . '/..' . '/mvcframework/exception/ExceptionHandler.php',
         'Framework\\File\\Image' => __DIR__ . '/..' . '/mvcframework/file/image/Image.php',
