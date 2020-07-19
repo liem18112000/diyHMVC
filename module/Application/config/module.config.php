@@ -1,6 +1,6 @@
 <?php
 
-// Name of th module
+// Name of the module
 define('Application',
 [
     // Sitename
@@ -16,6 +16,11 @@ define('Application',
     'models' => [
         'auth/User',
         'auth/SimpleUser',
+    ],
+
+    // !!! Route : under experiment
+    'routes' => [
+        
     ],
 
     // Path

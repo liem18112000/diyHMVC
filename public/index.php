@@ -3,6 +3,7 @@
 session_start();
 
 use Framework\Core\App\App;
+use Framework\Core\Route\RouteContainer;
 use Framework\Core\Registry\Registry;
 
 // Load config
@@ -25,11 +26,12 @@ $arr = explode('/', $url);
 // echo'</pre>';
 
 if(in_array($arr[0], INFORMATION['auth']['cmd'])){
-    echo '<pre>';
-    var_dump(App::getConfig($arr[1]));
-    echo'</pre>';
+    print(json_encode(App::getConfig($arr[1])));
 }else{
     App::initialize();
+    // !!! Route : under experiment
+    // $routeContainer = RouteContainer::getInstance();
+    // Registry::setInstance('RouteContainer', $routeContainer);
     $app = App::getInstance('App');
     $app->operate($url);
     Registry::setInstance('App', $app);
